@@ -1,10 +1,17 @@
 import "./App.scss";
-import Card from "./components/card/Card";
+
+import CardGrid from "./components/card/CardGrid";
 
 function App() {
   return (
     <div className="App">
-      <Card title="Ciao sono Giorgio" />
+      <CardGrid>
+        <CardGrid.Card title="Ciao sono Giorgio" size="vertical" />
+        <CardGrid.Card title="seconda card" glass size="small" />
+        <CardGrid.Card title="terza card" glass />
+        <CardGrid.Card title="quarta card" black />
+        <CardGrid.Card title="quinta card" glass />
+      </CardGrid>
     </div>
   );
 }
