@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="App">
       <CardGrid>
-        <CardGrid.Card title="Ciao sono Giorgio" size="vertical" />
+        <CardGrid.Card title="Ciao sono Giorgio" size="vertical" glass />
         <CardGrid.Card title="seconda card" glass size="small" />
         <CardGrid.Card title="terza card" glass />
-        <CardGrid.Card title="quarta card" black />
+        <CardGrid.Card title="quarta card" glass />
         <CardGrid.Card title="quinta card" glass />
       </CardGrid>
     </div>

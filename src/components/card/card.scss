@@ -1,23 +1,25 @@
 .card-grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .card {
   position: relative;
-  border-radius: 1.563rem;
+//   border-radius: 1.5rem;
+
   background-color: #ffffff;
   padding: 2rem;
   p {
-    color: #1d1d1d;
+    // color: #1d1d1d;
+    color: rgb(233, 233, 233);
   }
 
   &.glass {
-    background: rgba(255, 255, 255, 0.24);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(55, 55, 55, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(166, 166, 166, 0.1);
   }
 
   &.black {

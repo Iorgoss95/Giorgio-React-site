@@ -6,6 +6,15 @@
 .App {
   text-align: center;
   padding: 2rem;
-  background-color: #f5f5f7;
   height: 100vh;
+
+  /* Puoi aggiungere più punti di colore per sfumature più complesse */
+//   background: linear-gradient(to bottom right, #8941f6 30%, #ffbc3f 60%,#ffff74 90%); 
+background-image: url("./images/back_v1.jpg");
+background-size: cover;
+background-position: center;
+
+
+
+
 }
